@@ -1,6 +1,9 @@
 # udacity-continuous-control
 Udacity Project for Deep Reinforcement Learning Nanodegree
 
+Readme file based on:
+https://github.com/udacity/deep-reinforcement-learning/blob/master/p2_continuous-control/README.md
+
 [//]: # (Image References)
 
 [image1]: https://user-images.githubusercontent.com/10624937/43851024-320ba930-9aff-11e8-8493-ee547c6af349.gif "Trained Agent"
