@@ -32,14 +32,21 @@ WEIGHT_DECAY = 0        # L2 weight decay
 NN architecture for the Actor:
 
 Input nodes (33 nodes, based on state size)
+
 Fully Connected Layer with ReLU activation (256 nodes)
+
 Fully Connected Layer with ReLU activation (128 nodes)
+
 Output nodes with tanh activation (4 nodes)
 
 NN architecture for the Critic:
+
 Input nodes (33 nodes, based on state size)
+
 Fully Connected Layer with ReLU activation (256 nodes) in concatenation with 4 more nodes (action)
+
 Fully Connected Layer with ReLU activation (128 nodes)
+
 Output node (1 node)
 
 
