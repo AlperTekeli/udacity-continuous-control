@@ -2,6 +2,11 @@
 
 The algorithm used for the project is Deep Deterministic Policy Gradient (DDPG), an Actor-Critic method based on https://arxiv.org/abs/1509.02971 
 
+Here is the pseudo-code for the algorithm:
+
+![alt text](https://github.com/AlperTekeli/udacity-continuous-control/blob/main/pseudo.png)
+
+
 Following augmentations are made:
 
 - Fixed-Q target
