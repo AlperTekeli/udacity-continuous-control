@@ -67,9 +67,27 @@ Average score: 30.00
 
 ### Ideas for Future Work
 
+It was quite challenging to achieve stable learning with DDPG, especially with regards to hyperparameter tuning. 
+
+Based on paper "Benchmarking Deep Reinforcement Learning for Continuous Control" - https://arxiv.org/pdf/1604.06778.pdf
 Following algorithms can also be used for this task and their performance can be compared to DDPG. 
 
-- Proximal Policy Optimization (PPO)
 - Trust Region Policy Optimization (TRPO)
-- Truncated Natural Policy Gradient (TNPG)
-- Distributed Distributional Deterministic Policy Gradients (D4PG) 
+TRPO is a trust region-based policy gradient method.
+"This algorithm allows more precise control on the expected policy improvement than TNPG through the introduction of a surrogate loss." (1)
+Please refer to "Schulman, J., Levine, S., Abbeel, P., Jordan, M. I., and Moritz, P. Trust region policy optimization. In ICML, pp. 1889–1897,
+2015a" for details regarding TRPO.
+
+- Proximal Policy Optimization (PPO)
+I am also eager to apply PPO, which is denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. - https://openai.com/blog/openai-baselines-ppo/
+
+You may find the PPO paper here: https://arxiv.org/abs/1707.06347
+
+"PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while ensuring the deviation from the previous policy is relatively small." (2)
+
+- Distributed Distributional Deterministic Policy Gradients (D4PG) - ![paper](https://openreview.net/forum?id=SyZipzbCb)
+
+
+### References
+[1] "Benchmarking Deep Reinforcement Learning for Continuous Control" - https://arxiv.org/pdf/1604.06778.pdf
+[2] https://openai.com/blog/openai-baselines-ppo/
