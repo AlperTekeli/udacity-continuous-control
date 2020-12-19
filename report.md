@@ -85,7 +85,7 @@ You may find the PPO paper here: https://arxiv.org/abs/1707.06347
 
 "PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while ensuring the deviation from the previous policy is relatively small." (2)
 
-- Distributed Distributional Deterministic Policy Gradients (D4PG) - ![paper](https://openreview.net/forum?id=SyZipzbCb)
+- Distributed Distributional Deterministic Policy Gradients (D4PG) - [paper](https://openreview.net/forum?id=SyZipzbCb)
 
 
 ### References
