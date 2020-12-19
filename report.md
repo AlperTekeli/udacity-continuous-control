@@ -69,8 +69,8 @@ Average score: 30.00
 
 It was quite challenging to achieve stable learning with DDPG, especially with regards to hyperparameter tuning. 
 
-Based on paper "Benchmarking Deep Reinforcement Learning for Continuous Control" - https://arxiv.org/pdf/1604.06778.pdf
-Following algorithms can also be used for this task and their performance can be compared to DDPG. 
+Based on [paper](https://arxiv.org/pdf/1604.06778.pdf) "Benchmarking Deep Reinforcement Learning for Continuous Control"
+I would like to try the following algorithms for this task and compare their performance to DDPG. 
 
 - Trust Region Policy Optimization (TRPO)
 TRPO is a trust region-based policy gradient method.
@@ -79,13 +79,14 @@ Please refer to "Schulman, J., Levine, S., Abbeel, P., Jordan, M. I., and Moritz
 2015a" for details regarding TRPO.
 
 - Proximal Policy Optimization (PPO)
-I am also eager to apply PPO, which is denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. - https://openai.com/blog/openai-baselines-ppo/
+I am also eager to apply PPO, which is denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. -[link](https://openai.com/blog/openai-baselines-ppo/)
 
-You may find the PPO paper here: https://arxiv.org/abs/1707.06347
+You may find the PPO paper [here](https://arxiv.org/abs/1707.06347)
 
 "PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while ensuring the deviation from the previous policy is relatively small." (2)
 
-- Distributed Distributional Deterministic Policy Gradients (D4PG) - [paper](https://openreview.net/forum?id=SyZipzbCb)
+- Distributed Distributional Deterministic Policy Gradients (D4PG) - [paper here](https://openreview.net/forum?id=SyZipzbCb)
+Utilizing "a distributional (Bellemare et al., 2017) version of the critic update which provides a better, more stable learning signal. Such distributions model the randomness due to intrinsic factors, among these is the inherent uncertainty imposed by function approximation in a continuous environment. We will see that using this distributional update directly results in better gradients and hence improves the performance of the learning algorithm" as explained in the introduction part of the paper.
 
 
 ### References
