@@ -10,7 +10,7 @@ https://github.com/udacity/deep-reinforcement-learning/blob/master/p2_continuous
 [image2]: https://user-images.githubusercontent.com/10624937/43851646-d899bf20-9b00-11e8-858c-29b5c2c94ccc.png "Crawler"
 
 
-### Introduction
+### Introduction & Environment Details
 
 For this project, you will work with the [Reacher](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Learning-Environment-Examples.md#reacher) environment.
 
@@ -42,6 +42,10 @@ The barrier for solving the second version of the environment is slightly differ
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 
+### Dependencies
+Please follow the instructions in the [DRLND GitHub repository](https://github.com/udacity/deep-reinforcement-learning#dependencies) to set up Python Environment.
+
+
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
@@ -65,3 +69,4 @@ The environment is considered solved, when the average (over 100 episodes) of th
 ### Instructions
 
 Follow the instructions in `Continuous_Control.ipynb` to get started with training your own agent!  
+This repository contains solution for the option with 20 identical agents.
