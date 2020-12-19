@@ -54,9 +54,9 @@ Output node (1 node)
 
 Agent is able to receive an average reward (over 100 episodes) of at least 30:
 
-Environment solved in 412 episodes. 
+Environment solved in 106 episodes. 
 
-Average score: 13.04
+Average score: 30.00
 
 ![alt text](https://github.com/AlperTekeli/udacity-continuous-control/blob/main/score.png)
 
