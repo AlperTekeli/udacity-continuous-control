@@ -73,20 +73,24 @@ Based on [paper](https://arxiv.org/pdf/1604.06778.pdf) "Benchmarking Deep Reinfo
 I would like to try the following algorithms for this task and compare their performance to DDPG. 
 
 - Trust Region Policy Optimization (TRPO)
-TRPO is a trust region-based policy gradient method.
-"This algorithm allows more precise control on the expected policy improvement than TNPG through the introduction of a surrogate loss." (1)
-Please refer to "Schulman, J., Levine, S., Abbeel, P., Jordan, M. I., and Moritz, P. Trust region policy optimization. In ICML, pp. 1889–1897,
-2015a" for details regarding TRPO.
+  
+  TRPO is a trust region-based policy gradient method.
+  
+  "This algorithm allows more precise control on the expected policy improvement than TNPG through the introduction of a surrogate loss." (1)
+  Please refer to "Schulman, J., Levine, S., Abbeel, P., Jordan, M. I., and Moritz, P. Trust region policy optimization. In ICML, pp. 1889–1897,
+  2015a" for details regarding TRPO.
 
 - Proximal Policy Optimization (PPO)
-I am also eager to apply PPO, which is denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. -[link](https://openai.com/blog/openai-baselines-ppo/)
+  
+  I am also eager to apply PPO, which is denoted as the default reinforcement learning algorithm at OpenAI because of its ease of use and good performance. -[link](https://openai.com/blog/openai-baselines-ppo/)
 
-You may find the PPO paper [here](https://arxiv.org/abs/1707.06347)
+  You may find the PPO paper [here](https://arxiv.org/abs/1707.06347)
 
-"PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while ensuring the deviation from the previous policy is relatively small." (2)
+  "PPO strikes a balance between ease of implementation, sample complexity, and ease of tuning, trying to compute an update at each step that minimizes the cost function while     ensuring the deviation from the previous policy is relatively small." (2)
 
 - Distributed Distributional Deterministic Policy Gradients (D4PG) - [paper here](https://openreview.net/forum?id=SyZipzbCb)
-Utilizing "a distributional (Bellemare et al., 2017) version of the critic update which provides a better, more stable learning signal. Such distributions model the randomness due to intrinsic factors, among these is the inherent uncertainty imposed by function approximation in a continuous environment. We will see that using this distributional update directly results in better gradients and hence improves the performance of the learning algorithm" as explained in the introduction part of the paper.
+
+  Utilizing "a distributional (Bellemare et al., 2017) version of the critic update which provides a better, more stable learning signal. Such distributions model the randomness   due to intrinsic factors, among these is the inherent uncertainty imposed by function approximation in a continuous environment. We will see that using this distributional       update directly results in better gradients and hence improves the performance of the learning algorithm" as explained in the introduction part of the paper.
 
 
 ### References
