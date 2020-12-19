@@ -1,6 +1,6 @@
 # Report
 
-The algorithm used for the project is Deep Deterministic Policy Gradient (DDPG), an Actor-Critic method based on https://arxiv.org/abs/1509.02971 
+The algorithm used for the project is Deep Deterministic Policy Gradient (DDPG), an Actor-Critic method based on [paper](https://arxiv.org/abs/1509.02971) 
 
 Here is the pseudo-code for the algorithm:
 
