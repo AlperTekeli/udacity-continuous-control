@@ -58,7 +58,7 @@ Environment solved in 412 episodes.
 
 Average score: 13.04
 
-![alt text](https://github.com/AlperTekeli/udacity-drl-navigation/blob/main/score.png)
+![alt text](https://github.com/AlperTekeli/udacity-continuous-control/blob/main/score.png)
 
 ### Ideas for Future Work
 
